@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #101827;
+    color: white;
+    padding: 30px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    max-width: 950px;
+    width: 100%;
+    background: #1e293b;
+    padding: 45px;
+    border-radius: 20px;
+    box-shadow: 0 10px 40px #0005;
+}
+
+.foto {
+    flex-shrink: 0;
+}
+
+.foto img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #3b82f6;
+}
+
+.conteudo {
+    flex: 1;
+}
+
+.destaque {
+    color: #60a5fa;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 12px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+h1 span {
+    color: #60a5fa;
+}
+
+h2 {
+    color: #94a3b8;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.descricao {
+    color: #cbd5e1;
+    line-height: 1.7;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #60a5fa;
+    margin-bottom: 12px;
+}
+
+.informacoes {
+    margin-bottom: 25px;
+}
+
+.informacoes p {
+    color: #cbd5e1;
+    margin-bottom: 9px;
+}
+
+.habilidades {
+    margin-bottom: 25px;
+}
+
+.habilidades span {
+    display: inline-block;
+    background: #334155;
+    color: #60a5fa;
+    padding: 8px 13px;
+    border-radius: 8px;
+    margin: 4px 3px 4px 0;
+}
+
+.botoes {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.botoes a {
+    text-decoration: none;
+    background: #3b82f6;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.botoes a:hover {
+    background: #2563eb;
+    transform: translateY(-3px);
+}
+
+/* Responsividade para celulares */
+
+@media (max-width: 700px) {
+    .container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 20px;
+    }
+
+    .foto img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .botoes {
+        justify-content: center;
+    }
+}
