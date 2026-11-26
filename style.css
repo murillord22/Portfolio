@@ -36,7 +36,7 @@ body {
     height: 250px;
     border-radius: 50%;
     object-fit: cover;
-    border: 5px solid #3b82f6;
+    border: 5px solid #a23bf6;
 }
 
 .conteudo {
@@ -44,7 +44,7 @@ body {
 }
 
 .destaque {
-    color: #60a5fa;
+    color: #a23bf6;
     font-weight: bold;
     letter-spacing: 2px;
     margin-bottom: 12px;
@@ -56,7 +56,7 @@ h1 {
 }
 
 h1 span {
-    color: #60a5fa;
+    color: #a23bf6;
 }
 
 h2 {
@@ -72,7 +72,7 @@ h2 {
 }
 
 h3 {
-    color: #60a5fa;
+    color: #a23bf6;
     margin-bottom: 12px;
 }
 
@@ -92,7 +92,7 @@ h3 {
 .habilidades span {
     display: inline-block;
     background: #334155;
-    color: #60a5fa;
+    color: #a23bf6;
     padding: 8px 13px;
     border-radius: 8px;
     margin: 4px 3px 4px 0;
